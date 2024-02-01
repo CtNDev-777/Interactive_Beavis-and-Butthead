@@ -1,7 +1,7 @@
 # Program written by CtNDev-777
 # Beavis and Butt-Head belong to Mike Judge and Paramount Global
 
-WORDS_TO_CHECK = ["anus", "ass", "butt", "dong", "fire", "hard"]
+WORDS_TO_CHECK = Set{"anus", "ass", "butt", "dong", "fire", "hard"}
 
 def word_finder(message)
 
